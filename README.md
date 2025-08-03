@@ -16,7 +16,12 @@ Traditional career counseling is often difficult to scale, lacks personalization
 
 ## 2. Proposed Solution
 
-The proposed system is an **Agentic Career Counseling Companion**, an intelligent AI agent built on IBM watsonx.ai. It is designed to provide personalized, dynamic, and scalable career guidance. The agent analyzes a student's profile and uses live web search to access real-time labor market trends, job requirements, and necessary skills, delivering comprehensive and actionable advice.
+The proposed system is an **Agentic Career Counseling Companion**, an intelligent AI agent built on IBM watsonx.ai. It is designed to provide personalized, dynamic, and scalable career guidance. The solution consists of the following components:
+
+*   **Student Profile Analysis:** The agent processes user inputs regarding academic performance, interests, and skills.
+*   **Real-time Data Retrieval:** It utilizes external tools to access live labor market data, including job roles and required skills.
+*   **Agentic AI Core:** An agentic system using a foundation model autonomously reasons, plans, and uses its tools to formulate comprehensive advice.
+*   **User Interaction:** A conversational interface allows students to ask natural language questions and receive detailed, actionable guidance.
 
 [View the full Capstone Presentation here](./Capstone_Presentation.pdf)
 
@@ -34,11 +39,17 @@ The proposed system is an **Agentic Career Counseling Companion**, an intelligen
 
 ## 4. Result and Output
 
-The system successfully functions as a dynamic career counselor. When prompted, the agent autonomously uses its tools to research the query and provides a structured, evidence-based recommendation with sourced links.
+The system successfully functions as a dynamic career counselor. When prompted, the agent autonomously uses its search tools to research the query and provides a structured, evidence-based recommendation with sourced links.
 
 **Example Interaction:**
 
-![Result Screenshot](images/result-screenshot.png)
+*A user asks for the top skills needed for a career in sustainable energy technology.*
+
+![Result Screenshot 1](./images/result-screenshot-1.png)
+
+*The agent continues its detailed response, providing further skills and resources.*
+
+![Result Screenshot 2](./images/result-screenshot-2.png)
 
 ---
 
@@ -47,15 +58,16 @@ The system successfully functions as a dynamic career counselor. When prompted, 
 *   **Enhanced Personalization:** Integrate with university systems to securely access a student's academic records for more deeply personalized advice.
 *   **Expanded Toolset:** Add tools that can connect to specific job portals like LinkedIn or Indeed for live job application links.
 *   **Proactive Notifications:** Develop a system where the agent can proactively alert students to new internship opportunities or relevant workshops based on their profile.
+*   **Multi-language Support:** Expand the agent's capabilities to offer guidance in multiple languages to support a more diverse student population.
 
 ---
 
 ## 6. IBM Certifications
 
-This project was developed as part of the IBM SkillsBuild program.
+This project was developed as part of the IBM SkillsBuild program, and the following certifications were completed during the coursework.
 
 | Certificate | Image |
 | :--- | :---: |
-| **Getting Started with AI** | ![AI Certificate](images/certificate-ai.png) |
-| **Journey to Cloud** | ![Cloud Certificate](images/certificate-cloud.png) |
-| **RAG Lab with LangChain** | ![RAG Certificate](images/certificate-rag.png) |
+| **Getting Started with Artificial Intelligence** | ![AI Certificate](./images/certificate-ai.png) |
+| **Journey to Cloud: Envisioning Your Solution** | ![Cloud Certificate](./images/certificate-cloud.png) |
+| **Lab: Retrieval Augmented Generation with LangChain** | ![RAG Certificate](./images/certificate-rag.png) |
